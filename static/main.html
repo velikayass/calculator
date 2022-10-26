@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/adaptive.css">
+    <title>Калькулятор вклада</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="head">Расчет процентов по банковским продуктам</span>
+            <div class="menu">
+                <ul>
+                    <li class="podmenu"><a href="index.html">Кредит</a></li>
+                    <li class="podmenu"><a href="main.html">Вклад</a></li>
+                    <li class="podmenu"><a href="mains.html">Дебетовый счет</a></li>
+                </ul>
+            </div>
+            
+        </header>
+        <div class="general" id="app2">
+            <div class="entry_field">
+                <form action="" method="post">
+                    <label for="summ2" class="summ">Введите сумму вклада</label>
+                    <br>
+                    <input type="text" name="summ" id="summ2" class="summ2">
+                    <br>
+                    <label for="percent2" class="percent">Введите процентную ставку</label>
+                    <br>
+                    <input type="text" name="percent" id="percent2" class="percent2">
+                    <br>
+                    <label for="years2" class="years">Выберите срок в днях</label>
+                    <br>
+                    <select name="years" id="years2" class="years2">
+                        <option value="180">180</option>
+                        <option value="365">365</option>
+                        <option value="545">545</option>
+                    </select>
+                    <br>
+                    <input type="submit" id="submit2" onclick="" value="Рассчитать">
+                </form>
+            </div>
+            <div class="result">
+                <span class="result_header">Результаты расчета</span>
+                <table class="calculations">
+                    <tr>
+                        <td>Сумма начисленных процентов</td>
+                        <td id="payment2"></td>
+                    </tr>
+                    <tr>
+                        <td>Общая выплата</td>
+                        <td id="total2"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <span class="sign">2022 &#169 velikayass</span>
+        </footer>
+    </div>
+    <script src="/js/app2.js"></script>
+</body>
+</html>

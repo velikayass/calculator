@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/adaptive.css">
+    <title>Кредитный калькулятор</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="head">Расчет процентов по банковским продуктам</span>
+            <div class="menu">
+                <ul>
+                    <li class="podmenu"><a href="index.html">Кредит</a></li>
+                    <li class="podmenu"><a href="main.html">Вклад</a></li>
+                    <li class="podmenu"><a href="mains.html">Дебетовый счет</a></li>
+                </ul>
+            </div>
+            
+        </header>
+        <div class="general" id="app1">
+            <div class="entry_field">
+                <form action="" method="post">
+                    <label for="summ1" class="summ">Введите сумму кредита</label>
+                    <br>
+                    <input type="text" name="summ" id="summ1" class="summ1" v-model="summ1">
+                    <br>
+                    <hr>
+                    <label for="percent1" class="percent">Введите процентную ставку</label>
+                    <br>
+                    <input type="text" name="percent" id="percent1" class="percent1" v-model="percent1">
+                    <br>
+                    <hr>
+                    <label for="years1" class="years">Выберите срок в месяцах</label>
+                    <br>
+                    <select name="years" id="years1" class="years1" v-model="years1">
+                        <option value="6">6</option>
+                        <option value="12">12</option>
+                        <option value="18">18</option>
+                        <option value="24">24</option>
+                        <option value="30">30</option>
+                        <option value="36">36</option>
+                        <option value="42">42</option>
+                        <option value="50">50</option>
+                        <option value="56">56</option>
+                        <option value="60">60</option>
+                    </select>
+                    <br>
+                    <input type="submit" id="submit1" onclick="" value="Рассчитать">
+                </form>
+            </div>
+            <div class="result">
+                <span class="result_header">Результаты расчета</span>
+                <table class="calculations">
+                    <tr>
+                        <td>Ежемесячный платеж</td>
+                        <td id="payment1"></td>
+                    </tr>
+                    <tr>
+                        <td>Переплата по кредиту</td>
+                        <td id="overpayment"></td>
+                    </tr>
+                    <tr>
+                        <td>Общая выплата</td>
+                        <td id="total1"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <span class="sign">2022 &#169 velikayass</span>
+        </footer>
+    </div>
+    <script src="/js/app1.js"></script>
+</body>
+</html>

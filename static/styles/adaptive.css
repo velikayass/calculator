@@ -1,0 +1,139 @@
+@media  only screen and (max-width:1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .menu {
+        /* display: none; */
+        width: 100%;
+        justify-content: center;
+    }
+    .podmenu {
+        display:inline;
+        margin-left: 1em;
+        border: none;
+        padding: 0;
+    }
+
+}
+@media  only screen and (max-width:992px) {
+    .container{
+        max-width: 750px;
+    }
+    .menu {
+        /* display: none; */
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .head {
+        padding-left: 0;
+    }
+    .podmenu {
+        display:inline;
+        margin-left: 1em;
+        border: none;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+}
+@media  only screen and (max-width:767px) {
+    .container{
+        max-width: none;
+    }
+    .menu {
+        /* display: none; */
+        width: 100%;
+        justify-content: flex-start;
+    }
+    header {
+        height: 5em;
+        padding: 3px;
+    }
+    .head {
+        padding-left: 0;
+    }
+    .podmenu {
+        display:inline;
+        margin-left: 1em;
+        border: none;
+        padding: 0;
+        /* width: 100%; */
+    }
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    .summ1, .summ2, .summ3 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        padding: 1em;
+        border-radius: 1.4em;
+    }
+    .percent1, .percent2, .percent3 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        padding: 1em;
+        border-radius: 1.4em;
+    }
+    .years1, .years2, .years3  {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 0.5em 1em;
+        border-radius: 1em;
+    }
+    
+    #submit1, #submit2, #submit3 {
+        padding: 1em 2em;
+        border-radius: 1.5em;
+        background-color: #299e98;
+        border: none;
+        color: white;
+    }
+    
+    .result {
+        display: inline-block;
+        padding: 3.3em;
+    }
+    
+    .result_header {
+        font-size: 1.2em;
+        text-align: left;
+        margin-bottom: 2em;
+    }
+    
+    .calculations {
+        margin-top: 2em;
+        display: block;
+    
+    }
+    
+    tr {
+        height: 2em;
+        font-size: 1.1em;
+        margin-bottom: 2em;
+    
+    }
+}
+@media  only screen and (max-width:500px) {
+    .summ1, .summ2, .summ3 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        padding: 0.5em;
+        border-radius: 1.4em;
+    }
+    .percent1, .percent2, .percent3 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        padding: 0.5em;
+        border-radius: 1.4em;
+    }
+    .years1, .years2, .years3  {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 0.5em;
+        border-radius: 1em;
+    }
+}

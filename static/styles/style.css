@@ -1,0 +1,235 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    
+}
+.container {
+    max-width: 1200px;
+    margin-left: 5%;
+    
+}
+header {
+    background-color: #299e98;
+    color: whitesmoke;
+    display: inline-block;
+    width: 100%;
+    height: 4em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.head {
+    padding-left: 4em;
+    font-size: 1.2em;
+    display: inline-flex;
+}
+
+.menu {
+    width: 50%;
+    padding-top: 0;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.podmenu {
+    display: inline;
+    border: solid 1px #fff;
+    padding: 0.2em 0.5em;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.general {
+    margin-top: 15em;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    max-width: 100%;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: row;
+}
+
+hr {
+    border: solid #299e98 1px;
+}
+
+.entry_field {
+    display: inline-block;
+    padding: 3em;
+    font-size: 1.1em;
+    max-width: 100%;
+}
+
+.summ {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.summ1 {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    padding: 1em 5em;
+    border-radius: 1.4em;
+}
+
+.summ2 {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    padding: 1em 5em;
+    border-radius: 1.4em;
+}
+
+.summ3 {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    padding: 1em 5em;
+    border-radius: 1.4em;
+}
+
+.percent {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.percent1 {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    padding: 1em 5em;
+    border-radius: 1.4em;
+}
+
+.percent2 {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    padding: 1em 5em;
+    border-radius: 1.4em;
+}
+
+.percent3 {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    padding: 1em 5em;
+    border-radius: 1.4em;
+}
+
+.years {
+    padding-top: 1em;
+}
+
+.years1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.years2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.years3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+#submit1, #submit2, #submit3 {
+    padding: 1em 5em;
+    border-radius: 1.5em;
+    background-color: #299e98;
+    border: none;
+    color: white;
+}
+
+.result {
+    display: inline-block;
+    padding: 3.3em;
+}
+
+.result_header {
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+
+.calculations {
+    margin-top: 2em;
+    /* padding-top: 40px; */
+    display: block;
+
+}
+
+td {
+    padding: 0.4em 2em;
+    border: none;
+}
+
+#payment1, #overpayment, #total1 {
+    text-align: right;
+    font-size: 1em;
+    width: 70%;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+}
+
+#payment2, #total2 {
+    text-align: right;
+    font-size: 1em;
+    width: 60%;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+}
+
+#payment3, #total3 {
+    text-align: right;
+    font-size: 1em;
+    width: 60%;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+}
+
+footer {
+    height: 4em;
+    background: -webkit-linear-gradient(0deg, #299e98, #ffffff);
+    background: linear-gradient(0deg, #299e98, #ffffff);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.sign {
+    padding-right: 40px;
+    display: block;
+    text-align: right;
+    color: darkslategrey;
+}

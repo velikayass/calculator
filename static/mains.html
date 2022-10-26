@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/adaptive.css">
+    <title>Калькулятор для дебетового счета</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="head">Расчет процентов по банковским продуктам</span>
+            <div class="menu">
+                <ul>
+                    <li class="podmenu"><a href="index.html">Кредит</a></li>
+                    <li class="podmenu"><a href="main.html">Вклад</a></li>
+                    <li class="podmenu"><a href="mains.html">Дебетовый счет</a></li>
+                </ul>
+            </div>
+            
+        </header>
+        <div class="general" id="app3">
+            <div class="entry_field">
+                <for action="" method="post">
+                    <label for="summ3" class="summ">Введите сумму на счете</label>
+                    <br>
+                    <input type="text" name="summ" id="summ3" class="summ3">
+                    <br>
+                    <label for="percent3" class="percent">Введите процентную ставку</label>
+                    <br>
+                    <input type="text" name="percent" id="percent3" class="percent3">
+                    <br>
+                    <label for="years3" class="years">Выберите срок в месяцах</label>
+                    <br>
+                    <select name="years" id="years3" class="years3">
+                        <option value="30">1</option>
+                        <option value="60">2</option>
+                        <option value="90">3</option>
+                        <option value="120">4</option>
+                        <option value="150">5</option>
+                        <option value="180">6</option>
+                    </select>
+                    <br>
+                    <input type="submit" id="submit3" onclick="" value="Рассчитать">
+                </for>
+            </div>
+            <div class="result">
+                <span class="result_header">Результаты расчета</span>
+                <table class="calculations">
+                    <tr>
+                        <td>Сумма начисленных процентов</td>
+                        <td id="payment3"></td>
+                    </tr>
+                    <tr>
+                        <td>Общая выплата</td>
+                        <td id="total3"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <span class="sign">2022 &#169 velikayass</span>
+        </footer>
+    </div>
+    <script src="/js/app3.js"></script>
+</body>
+</html>
